@@ -1,4 +1,5 @@
-public class Person{
+public class Person
+{
  private String myName ; // name of the person
  private int myAge; // person's age
  private String myGender; // "M" for male, "F" for female
@@ -30,8 +31,7 @@ public int getAge(){
  myGender = gender;
  }
  public String toString(){
- return myName + ", age: " + myAge + ", gender: " +
-myGender;
+ return myName + ", age: " + myAge + ", gender: " +myGender;
  }
 }
 
@@ -39,8 +39,8 @@ public class Student extends Person{
 private String myIdNum; // Student Id Number
 private double myGPA; 
 
-public Student(String name, int age, String gender,
- String idNum, double gpa){
+public Student(String name, int age, String gender,String idNum, double gpa)
+{
 
 super(name, age, gender);
 // initialize what's new to Student
